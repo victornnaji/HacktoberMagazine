@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: 'lazer84regular';
+    src: url('lazer84-webfont.woff2') format('woff2'),
+         url('lazer84-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'squealerregular';
+    src: url('squealer-webfont.woff2') format('woff2'),
+         url('squealer-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
