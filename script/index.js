@@ -61,9 +61,9 @@ Shuffle(cards).forEach(decadev => {
             <div class="repo">Repos: <span>${userData.data.public_repos}</span></div>
             </div>
             <ul class="social">
-                <li><a href="https://www.facebook.com/${decadev.facebook}" target="_blank"><img src="img/facebook.png" alt="facebook" class="social-icon"></a></li>
-                <li><a href="https://www.twitter.com/${decadev.twitter}" target="_blank"><img src="img/twitter.png" alt="twitter.png" class="social-icon"></a></li>
-                <li><a href="${userData.data.html_url}" target="_blank"><img src="img/github.png" alt="github" class="social-icon"></a></li>
+                <li><a href="https://www.facebook.com/${decadev.facebook}" target="_blank"><img src="../img/facebook.png" alt="facebook" class="social-icon"></a></li>
+                <li><a href="https://www.twitter.com/${decadev.twitter}" target="_blank"><img src="../img/twitter.png" alt="twitter.png" class="social-icon"></a></li>
+                <li><a href="${userData.data.html_url}" target="_blank"><img src="../img/github.png" alt="github" class="social-icon"></a></li>
             </ul>
         </div>`;
         });
