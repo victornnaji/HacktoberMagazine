@@ -60,11 +60,23 @@ Shuffle(cards).forEach(decadev => {
             <div class="username">Username: <span>${userData.data.login}</span></div>
             <div class="repo">Repos: <span>${userData.data.public_repos}</span></div>
             </div>
-            <ul class="social">
-                <li><a href="https://www.facebook.com/${decadev.facebook}" target="_blank"><img src="../img/facebook.png" alt="facebook" class="social-icon"></a></li>
-                <li><a href="https://www.twitter.com/${decadev.twitter}" target="_blank"><img src="../img/twitter.png" alt="twitter.png" class="social-icon"></a></li>
-                <li><a href="${userData.data.html_url}" target="_blank"><img src="../img/github.png" alt="github" class="social-icon"></a></li>
-            </ul>
+            <div class="social">
+                <a href="https://www.facebook.com/${decadev.facebook}" target="_blank">
+                <svg class="icon icon-facebook">
+                    <use xlink:href="img/sprite.svg#icon-facebook2"></use>
+                </svg>
+                </a>
+                <a href="https://www.twitter.com/${decadev.twitter}" target="_blank">
+                <svg class="icon icon-facebook icon-twitter">
+                    <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                </svg>
+                </a>
+                <a href="${userData.data.html_url}" target="_blank">
+                <svg class="icon icon-facebook">
+                    <use xlink:href="img/sprite.svg#icon-github"></use>
+                </svg>
+                </a>
+            </div>
         </div>`;
         });
 });
