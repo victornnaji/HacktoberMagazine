@@ -1,34 +1,29 @@
-.lead {
+.announcement__text{
+    color: $pink-color;
+
+    a:link, a:visited{
+        color: currentColor;
+    }
+}
+
+.hacktober{
+    font-family: squealerregular,serif;
+    font-size: 5rem;
+    color: $hacktober-color;
+}
+
+.magazine{
+    font-family: lazer84regular,serif;
+    text-shadow: -1px 0 $yellow-color, 0 1px $yellow-color, 1px 0 $yellow-color, 0 -1px $yellow-color;
+    color:$pink-color;
+    font-size: 6rem;
+}
+
+.decagon{
+    color: $yellow-color;
+    text-shadow: -1px 0 $pink-color, 0 1px $pink-color, 1px 0 $pink-color, 0 -1px $pink-color;
     font-size: 2rem;
-    font-weight: 300;
-  }
-
-  .display-1 {
-    font-size: 9.6rem;
-    font-weight: 300;
-    line-height: 1.2;
-  }
-  
-  .display-2 {
-    font-size: 8.8rem;
-    font-weight: 300;
-    line-height: 1.2;
-  }
-  
-  .display-3 {
-    font-size: 7.2rem;
-    font-weight: 300;
-    line-height: 1.2;
-  }
-  
-  .display-4 {
-    font-size: 5.6rem;
-    font-weight: 300;
-    line-height: 1.2;
-  }
-
-  .display-5 {
-    font-size: 4.0rem;
-    font-weight: 300;
-    line-height: 1.2;
-  }
+    position: absolute;
+    top: 6.5rem;
+    right: 3rem;
+}
