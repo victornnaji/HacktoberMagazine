@@ -131,8 +131,8 @@ function Shuffle(o) {
     return o;
 }
 
-const client_id = "Iv1.2df6b73db91ac316";
-const client_secret = "612e0879d893a337599a03959a587a248ef145e3";
+const client_id = "75d6633b7456df73aef3";
+const client_secret = "9269a41b2dc3ba0a13e94609bd7b05f1769ba5b8";
 
 const fetchUser = async (user) => {
     const api_call = await fetch(`https://api.github.com/users/${user}?client_id=${client_id}&
