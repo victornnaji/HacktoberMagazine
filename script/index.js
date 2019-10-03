@@ -6,12 +6,19 @@ let cards = [
         facebook: "#",
         twitter: "nnajivictor0"
     },
-    {
-        decadev: "Akinbiyi Usman",
+  {
+       decadev: "Akinbiyi Usman",
         github_username: "ThaLeprechaun",
         title: "Software Engineer",
         facebook: "AKinbiyi Lanre",
         twitter: "usmanLanray"
+    },
+   {
+        decadev: "Adonis Mendoza",
+        github_username: "adonismendozaperez",
+        title: "Web Developer",
+        facebook: "#",
+        twitter: "adonismdza"
     }
 ];
 
