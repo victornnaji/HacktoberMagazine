@@ -23,6 +23,30 @@ body {
   font-size: 5rem;
   color: #2b6cb0; }
 
+.search{
+  font-family: 'Exo 2', sans-serif;
+  display:flex;
+  justify-content: center;
+  margin:2rem auto 6rem auto;
+}
+
+label{
+  display: inline-block;
+  margin-right:1rem;
+  font-size: 3rem;
+}
+
+.searchbox{
+  display: inline-block;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2rem;
+  height:4.5rem;
+  width:35%;
+  border: 1px solid black;
+  border-radius: 0.8rem;
+  padding: 1%;
+}
+
 .magazine {
   font-family: lazer84regular,serif;
   text-shadow: -1px 0 #ff0, 0 1px #ff0, 1px 0 #ff0, 0 -1px #ff0;

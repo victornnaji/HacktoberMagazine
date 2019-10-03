@@ -151,8 +151,8 @@ const fetchUser = async (user) => {
 
 resultDiv = document.querySelector(".card-container");
 
-let content = "";
-Shuffle(cards).forEach(decadev => {
+let content = (data)=>{
+Shuffle(data).forEach(decadev => {
     fetchUser(decadev.github_username)
         .then(userData => {
             console.log(userData.data);
@@ -189,7 +189,23 @@ Shuffle(cards).forEach(decadev => {
                 </a>
             </div>
         </div>`;
-        });
-});
+        })
+})
+};
 
+function search(){
+    let key=document.querySelector("#searchbox").value.trim();
+    
+    if(key.length==0){
+        content(cards);
+        return;
+    }
+    let fcards=cards.filter((card)=>{
+        return card.decadev.toLowerCase().includes(key.toLowerCase()) || card.github_username.toLowerCase().includes(key.toLowerCase());
+    });
+    resultDiv.innerHTML=``;
+    console.log(fcards);
+    content(fcards);
+}
 
+content(cards);
