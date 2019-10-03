@@ -109,6 +109,13 @@ let cards = [
     title: "Software Engineer",
     facebook: "afolabiwaheedo",
     twitter: "checkwithwaheed"
+},
+{
+decadev: "Prakher Prashank",
+github_username: "terabo090",
+title: "Web Developer",
+facebook: "Prashank Prakher",
+twitter: "PrakherPrashank"
 }
 ];
 
