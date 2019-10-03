@@ -4,7 +4,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/Nnaji-Victor/HacktoberMagazine?style=social)
 :octocat:
 
-Useful and fun open source collaboration for decadves with the aim of working in an open source project and to achieving the requirements for a free t-shirt as part of [Hacktoberfest](https://hacktoberfest.digitalocean.com/).
+Useful and fun open source collaboration for developers with the aim of working in an open source project and to achieving the requirements for a free t-shirt as part of [Hacktoberfest](https://hacktoberfest.digitalocean.com/).
 
 👉Check it out: [HacktoberMagazine For Decadevs](https://hacktobermagazine.netlify.com/)
 
