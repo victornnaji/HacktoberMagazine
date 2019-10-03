@@ -4,14 +4,14 @@
 ![GitHub forks](https://img.shields.io/github/forks/Nnaji-Victor/HacktoberMagazine?style=social)
 :octocat:
 
-Useful and fun open source collaboration for decadves with the aim of working in an open source project and to achieving the requirements for a free t-shirt as part of [Hacktoberfest](https://hacktoberfest.digitalocean.com/).
+Useful and fun open source collaboration for developers with the aim of working in an open source project and to achieving the requirements for a free t-shirt as part of [Hacktoberfest](https://hacktoberfest.digitalocean.com/).
 
 👉Check it out: [HacktoberMagazine For Decadevs](https://hacktobermagazine.netlify.com/)
 
 ![Screenshot](img/hacktobermagazine.png)
 
 ## HacktoberMagazine
-Trying to work on an open source project can be daunting as a beginner hence why HacktoberMagazine for Decadevs was born.
+Trying to work on an open source project can be daunting as a beginner hence why HacktoberMagazine for Developers was born.
 
 This project is built with just HTML, CSS(actually, SCSS 👌) AND JAVASCRIPT. Easy and fun ways to collaborate with teams and see your collaboration live ...thanks to the continuous deployment by Netflify!.
 
@@ -19,7 +19,7 @@ This project is built with just HTML, CSS(actually, SCSS 👌) AND JAVASCRIPT. E
   * Fork the repo
   * Clone the repo
   * checkout a new branch using  ``git checkout -b new_branch_name``
-  * Open the index.js and add your name as thus:
+  * Open the script/index.js and add your name as thus:
    ```javascript
     {
         decadev: "Your Name",
