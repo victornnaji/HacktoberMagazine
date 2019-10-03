@@ -5,6 +5,13 @@ let cards = [
         title: "Software Engineer",
         facebook: "#",
         twitter: "nnajivictor0"
+    },
+    {
+        decadev: "Adonis Mendoza",
+        github_username: "adonismendozaperez",
+        title: "Web Developer",
+        facebook: "#",
+        twitter: "adonismdza"
     }
 ];
 
