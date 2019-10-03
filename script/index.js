@@ -103,12 +103,6 @@ let cards = [
     title: "Software Product Engineer",
     facebook: "Osehiase Ehilen",
     twitter: "osehiase"
-},{
-    decadev: "Waheed Afolabi",
-    github_username: "wptechprodigy",
-    title: "Software Engineer",
-    facebook: "afolabiwaheedo",
-    twitter: "checkwithwaheed"
 }
 ];
 
