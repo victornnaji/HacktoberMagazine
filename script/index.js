@@ -82,6 +82,13 @@ let cards = [
        title: "Full Stack Developer",
        facebook: "Joel Ugwumadu",
        twitter: "UgwumaduJoel"
+    },
+  {
+       decadev: "Ama Benedict",
+       github_username: "bendiumpope",
+       title: "Software Developer",
+       facebook: "benpope",
+       twitter: "dikachiben"
    }
 ];
 
