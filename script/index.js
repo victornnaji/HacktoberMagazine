@@ -26,6 +26,20 @@ let cards = [
         title: "Software Developer",
         facebook: "doctor.vee.1",
         twitter: "MyDoctorVee"
+    },
+  {
+        decadev: "Jones Ogolo",
+        github_username: "Jay-Topher",
+        title: "Software Engineer",
+        facebook: "Jones Ogolo",
+        twitter: "mr_jonce"
+    },
+    {
+        decadev: "Chukwuebuka Anazodo",
+        github_username: "phayo",
+        title: "Software Products Engineer",
+        facebook: "phayokingz",
+        twitter: "mrphayo"
     }
 ];
 
