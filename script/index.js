@@ -94,7 +94,7 @@ let cards = [
     decadev: "Ugwu Lewis",
     github_username: "princelewis",
     title: "Software Engineer",
-    facebook: "ugwu lewis",
+    facebook: "ugwu obiora",
     twitter: "Loudsdata"
 }
 ];
