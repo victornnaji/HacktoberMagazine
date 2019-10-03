@@ -77,6 +77,13 @@ let cards = [
        twitter: "A1_success"
    },
     {
+       decadev: "Joel Ugwumadu",
+       github_username: "ugwumadu116",
+       title: "Full Stack Developer",
+       facebook: "Joel Ugwumadu",
+       twitter: "UgwumaduJoel"
+    },
+  {
        decadev: "Ama Benedict",
        github_username: "bendiumpope",
        title: "Software Developer",
