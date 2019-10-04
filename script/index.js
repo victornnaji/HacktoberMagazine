@@ -116,7 +116,7 @@ github_username: "terabo090",
 title: "Web Developer",
 facebook: "Prashank Prakher",
 twitter: "PrakherPrashank"
-}
+},
 {
     decadev: "Chigozie Asadu",
     github_username: "cchigo",
