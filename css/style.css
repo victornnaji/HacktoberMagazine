@@ -295,3 +295,17 @@ body {
 .username {
   font-size: 2rem;
   font-family: inherit; }
+
+#searchContainer {
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+#searchInput {
+    border-radius: 10px;
+    height: 35px;
+    width: 350px;
+    display: inherit;
+    margin: 0 auto;
+    color: #2b6cb0;
+}

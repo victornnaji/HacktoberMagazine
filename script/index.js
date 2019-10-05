@@ -135,6 +135,33 @@ twitter: "PrakherPrashank"
 ];
 
 
+function searchForDevelopers() {
+    let input = document.getElementById('searchInput');
+    let filter = input.value.toLowerCase();
+    let cardContainer = document.getElementById("cardContainer");
+    let divs = cardContainer.getElementsByClassName('our-team');
+
+    for (i = 0; i < divs.length; i++) {
+	let div = divs[i];
+	let teamContent = div.getElementsByClassName("team-content")[0];
+	let githubContainer = div.getElementsByClassName("github-container")[0];
+
+	let name = teamContent.getElementsByClassName("name")[0].textContent;
+	let title = teamContent.getElementsByClassName("title")[0].textContent;
+	let username = githubContainer.getElementsByClassName("username")[0].textContent;
+
+	if (name.toLowerCase().indexOf(filter) > -1 ||
+	    title.toLowerCase().indexOf(filter) > -1 ||
+	    username.toLowerCase().indexOf(filter) > -1) {
+	    div.style.display = "";
+	}
+	else {
+	    div.style.display = "none";
+	}
+    }
+}
+
+
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
