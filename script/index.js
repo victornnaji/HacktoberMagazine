@@ -6,14 +6,14 @@ let cards = [
         facebook: "#",
         twitter: "nnajivictor0"
     },
-  {
-       decadev: "Akinbiyi Usman",
+    {
+        decadev: "Akinbiyi Usman",
         github_username: "ThaLeprechaun",
         title: "Software Engineer",
         facebook: "AKinbiyi Lanre",
         twitter: "usmanLanray"
     },
-   {
+    {
         decadev: "Adonis Mendoza",
         github_username: "adonismendozaperez",
         title: "Web Developer",
@@ -27,14 +27,14 @@ let cards = [
         facebook: "cranium44",
         twitter: "cranium_44"
     },
-  {
+    {
         decadev: "Doctor Vee",
         github_username: "Victor-Chinewubeze",
         title: "Software Developer",
         facebook: "doctor.vee.1",
         twitter: "MyDoctorVee"
     },
-  {
+    {
         decadev: "Jones Ogolo",
         github_username: "Jay-Topher",
         title: "Software Engineer",
@@ -48,7 +48,7 @@ let cards = [
         facebook: "phayokingz",
         twitter: "mrphayo"
     },
-     {
+    {
         decadev: "Adams Temidire A",
         github_username: "gr8temi",
         title: "Software Developer",
@@ -62,92 +62,97 @@ let cards = [
         facebook: "babson.thywo",
         twitter: "thywoe"
     },
-  {
+    {
         decadev: "Chidiogo Ezeakunne",
         github_username: "chidiogo-akunne",
         title: "Software Developer",
         facebook: "scholar.akunne",
         twitter: "dinthecoder"
     },
-  {
-       decadev: "Amani Kanu",
-       github_username: "sirsuccess",
-       title: "Software Developer",
-       facebook: "Amani Kanu",
-       twitter: "A1_success"
-   },
     {
-       decadev: "Joel Ugwumadu",
-       github_username: "ugwumadu116",
-       title: "Full Stack Developer",
-       facebook: "Joel Ugwumadu",
-       twitter: "UgwumaduJoel"
+        decadev: "Amani Kanu",
+        github_username: "sirsuccess",
+        title: "Software Developer",
+        facebook: "Amani Kanu",
+        twitter: "A1_success"
     },
-  {
-       decadev: "Ama Benedict",
-       github_username: "bendiumpope",
-       title: "Software Developer",
-       facebook: "benpope",
-       twitter: "dikachiben"
-   },
-   {
+    {
+        decadev: "Joel Ugwumadu",
+        github_username: "ugwumadu116",
+        title: "Full Stack Developer",
+        facebook: "Joel Ugwumadu",
+        twitter: "UgwumaduJoel"
+    },
+    {
+        decadev: "Ama Benedict",
+        github_username: "bendiumpope",
+        title: "Software Developer",
+        facebook: "benpope",
+        twitter: "dikachiben"
+    },
+    {
 
-    decadev: "Ayodele Tolulope",
-    github_username: "toluwalope19",
-    title: "Software Developer",
-    facebook: "tolu.ayodele3",
-    twitter: "Tolubarca"
-   },
-  {
-    decadev: "Ugwu Lewis",
-    github_username: "princelewis",
-    title: "Software Engineer",
-    facebook: "ugwu obiora",
-    twitter: "Loudsdata"
-},
- {
-    decadev: "Osehiase Ehilen",
-    github_username: "Osehi",
-    title: "Software Product Engineer",
-    facebook: "Osehiase Ehilen",
-    twitter: "osehiase"
-},{
-    decadev: "Waheed Afolabi",
-    github_username: "wptechprodigy",
-    title: "Software Engineer",
-    facebook: "afolabiwaheedo",
-    twitter: "checkwithwaheed"
-},
-{
-decadev: "Prakher Prashank",
-github_username: "terabo090",
-title: "Web Developer",
-facebook: "Prashank Prakher",
-twitter: "PrakherPrashank"
-},
-{
-decadev: "Naman Dwivedi",
-github_username: "Naman2901",
-title: "Software Developer",
-facebook: "",
-twitter: ""
-
-},
-{
-    decadev: "Chigozie Asadu",
-    github_username: "cchigo",
-    title: "Software Developer",
-    facebook: "Chigozie Asadu",
-    twitter: "Chigorgor"
-},
-{
-    decadev: "Anushka Narula",
-    github_username: "anushkanarula",
-    title: "Computer Science Engineering Undergrad",
-    facebook: "narula.anushka",
-    twitter: "AnushkaNarula1"
-}
-
+        decadev: "Ayodele Tolulope",
+        github_username: "toluwalope19",
+        title: "Software Developer",
+        facebook: "tolu.ayodele3",
+        twitter: "Tolubarca"
+    },
+    {
+        decadev: "Ugwu Lewis",
+        github_username: "princelewis",
+        title: "Software Engineer",
+        facebook: "ugwu obiora",
+        twitter: "Loudsdata"
+    },
+    {
+        decadev: "Osehiase Ehilen",
+        github_username: "Osehi",
+        title: "Software Product Engineer",
+        facebook: "Osehiase Ehilen",
+        twitter: "osehiase"
+    },{
+        decadev: "Waheed Afolabi",
+        github_username: "wptechprodigy",
+        title: "Software Engineer",
+        facebook: "afolabiwaheedo",
+        twitter: "checkwithwaheed"
+    },
+    {
+        decadev: "Prakher Prashank",
+        github_username: "terabo090",
+        title: "Web Developer",
+        facebook: "Prashank Prakher",
+        twitter: "PrakherPrashank"
+    },
+    {
+        decadev: "Naman Dwivedi",
+        github_username: "Naman2901",
+        title: "Software Developer",
+        facebook: "",
+        twitter: ""
+    },
+    {
+        decadev: "Chigozie Asadu",
+        github_username: "cchigo",
+        title: "Software Developer",
+        facebook: "Chigozie Asadu",
+        twitter: "Chigorgor"
+    },
+    {
+        decadev: "Anushka Narula",
+        github_username: "anushkanarula",
+        title: "Computer Science Engineering Undergrad",
+        facebook: "narula.anushka",
+        twitter: "AnushkaNarula1"
+    },
+    {
+        decadev: "Wesley Mendes",
+        github_username: "WesGtoX",
+        title: "Software Developer",
+        facebook: "WesGtoX",
+        twitter: "Wess_Mendes"
+    }
 ];
 
 
@@ -158,22 +163,22 @@ function searchForDevelopers() {
     let divs = cardContainer.getElementsByClassName('our-team');
 
     for (i = 0; i < divs.length; i++) {
-	let div = divs[i];
-	let teamContent = div.getElementsByClassName("team-content")[0];
-	let githubContainer = div.getElementsByClassName("github-container")[0];
+        let div = divs[i];
+        let teamContent = div.getElementsByClassName("team-content")[0];
+        let githubContainer = div.getElementsByClassName("github-container")[0];
 
-	let name = teamContent.getElementsByClassName("name")[0].textContent;
-	let title = teamContent.getElementsByClassName("title")[0].textContent;
-	let username = githubContainer.getElementsByClassName("username")[0].textContent;
+        let name = teamContent.getElementsByClassName("name")[0].textContent;
+        let title = teamContent.getElementsByClassName("title")[0].textContent;
+        let username = githubContainer.getElementsByClassName("username")[0].textContent;
 
-	if (name.toLowerCase().indexOf(filter) > -1 ||
-	    title.toLowerCase().indexOf(filter) > -1 ||
-	    username.toLowerCase().indexOf(filter) > -1) {
-	    div.style.display = "";
-	}
-	else {
-	    div.style.display = "none";
-	}
+        if (name.toLowerCase().indexOf(filter) > -1 || 
+        title.toLowerCase().indexOf(filter) > -1 || 
+        username.toLowerCase().indexOf(filter) > -1) {
+            div.style.display = "";
+        }
+        else {
+            div.style.display = "none";
+        }
     }
 }
 
@@ -249,5 +254,3 @@ Shuffle(cards).forEach(decadev => {
         </div>`;
         });
 });
-
-
