@@ -126,6 +126,14 @@ facebook: "Prashank Prakher",
 twitter: "PrakherPrashank"
 },
 {
+decadev: "Naman Dwivedi",
+github_username: "Naman2901",
+title: "Software Developer",
+facebook: "",
+twitter: ""
+
+},
+{
     decadev: "Chigozie Asadu",
     github_username: "cchigo",
     title: "Software Developer",
