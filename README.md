@@ -31,7 +31,7 @@ This project is built with just HTML, CSS(actually, SCSS 👌) AND JAVASCRIPT. E
   ```
   *  Add and commit your changes with a commit message
   *  push to the remote repo using  ``git push origin your_branch_name``
-  *   Make a pull request to development and wait for your contribution to be merged
+  *   Make a pull request and wait for your contribution to be merged
   *   See your changes go live at [HacktoberMagazine](https://hacktobermagazine.netlify.com/)
 
 ## ISSUES
