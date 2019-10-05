@@ -139,7 +139,15 @@ twitter: ""
     title: "Software Developer",
     facebook: "Chigozie Asadu",
     twitter: "Chigorgor"
-    }
+},
+{
+    decadev: "Anushka Narula",
+    github_username: "anushkanarula",
+    title: "Computer Science Engineering Undergrad",
+    facebook: "narula.anushka",
+    twitter: "AnushkaNarula1"
+}
+
 ];
 
 
