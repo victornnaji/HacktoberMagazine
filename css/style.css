@@ -290,8 +290,23 @@ body {
 
 .github-container {
   text-align: center;
-  margin-top: -2.6rem; }
+  margin-top: -2.6rem;
+  font-family: 'Comic Sans MS', cursive, sans-serif;  }
 
 .username {
-  font-size: 2rem;
-  font-family: inherit; }
+  font-size: 2rem;   
+ }
+
+#searchContainer {
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+#searchInput {
+    border-radius: 10px;
+    height: 35px;
+    width: 350px;
+    display: inherit;
+    margin: 0 auto;
+    color: #2b6cb0;
+}
