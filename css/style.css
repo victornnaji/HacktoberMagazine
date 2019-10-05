@@ -290,11 +290,12 @@ body {
 
 .github-container {
   text-align: center;
-  margin-top: -2.6rem; }
+  margin-top: -2.6rem;
+  font-family: 'Comic Sans MS', cursive, sans-serif;  }
 
 .username {
-  font-size: 2rem;
-  font-family: inherit; }
+  font-size: 2rem;   
+ }
 
 #searchContainer {
     width: 100%;
