@@ -152,7 +152,12 @@ let cards = [
         title: "Software Developer",
         facebook: "WesGtoX",
         twitter: "Wess_Mendes"
-    }
+    },
+	{
+     decadev: "Taylor Leija",
+     github_username: "tleija",
+     title: "hobbiest"
+ }
 ];
 
 
