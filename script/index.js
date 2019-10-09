@@ -180,6 +180,13 @@ let cards = [
           title: "Software Developer",
           facebook: "Darotudeen",
           twitter: "LeKibitzer"
+      },
+    {
+          decadev: "Rohit Singh",
+          github_username: "cyber0786",
+          title: "Security Advisor",
+          facebook: "Rohit Singh",
+          twitter: "Rohit_0786"
       }
   ];
   
