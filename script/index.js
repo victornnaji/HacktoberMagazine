@@ -154,6 +154,13 @@ let cards = [
       twitter: "Wess_Mendes"
     },
     {
+     decadev: "Nishit Anand",
+     github_username: "nishitanand",
+     title: "Computer Science Student",
+     facebook: "nishitanand",
+     twitter: "nishitanand99"
+ }
+    {
       decadev: "Rocktim Saikia",
       github_username: "RocktimSaikia",
       title: "Fullstack Web Developer",
