@@ -159,7 +159,7 @@ let cards = [
      title: "Computer Science Student",
      facebook: "nishitanand",
      twitter: "nishitanand99"
- }
+ },
     {
       decadev: "Rocktim Saikia",
       github_username: "RocktimSaikia",
