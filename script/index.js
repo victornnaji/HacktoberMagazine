@@ -195,6 +195,13 @@ let cards = [
           facebook: "Rohit Singh",
           twitter: "Rohit_0786"
       },
+      {
+        decadev: "Vijay Krishna",
+        github_username: "vijaykrishna536",
+        title: "Computer Science Engineering Undergrad",
+        facebook: "#",
+        twitter: "#"
+    },
     {
           decadev: "Shubham Siddhartha",
           github_username: "shubhamcoder97",
