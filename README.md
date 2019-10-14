@@ -1,4 +1,4 @@
-# HacktoberMagazine  for Decadevs 003
+# HacktoberMagazine  for Developers
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Nnaji-Victor/HacktoberMagazine/master)
 ![GitHub forks](https://img.shields.io/github/forks/Nnaji-Victor/HacktoberMagazine?style=social)
@@ -6,7 +6,7 @@
 
 Useful and fun open source collaboration for developers with the aim of working in an open source project and to achieving the requirements for a free t-shirt as part of [Hacktoberfest](https://hacktoberfest.digitalocean.com/).
 
-👉Check it out: [HacktoberMagazine For Decadevs](https://hacktobermagazine.netlify.com/)
+👉Check it out: [HacktoberMagazine For Developers](https://hacktobermagazine.netlify.com/)
 
 ![Screenshot](img/hacktobermagazine.png)
 
@@ -22,7 +22,7 @@ This project is built with just HTML, CSS(actually, SCSS 👌) AND JAVASCRIPT. E
   * Open the script/index.js and add your name as thus:
    ```javascript
     {
-        decadev: "Your Name",
+        name: "Your Name",
         github_username: "github username",
         title: "Software Engineer or any title",
         facebook: "facebook username like zuckerbeg002",
