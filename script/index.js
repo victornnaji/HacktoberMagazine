@@ -1,224 +1,224 @@
 let cards = [
+  {
+    name: "Nnaji Victor",
+    github_username: "Nnaji-Victor",
+    title: "Software Engineer",
+    facebook: "#",
+    twitter: "nnajivictor0"
+  },
+  {
+    name: "Akinbiyi Usman",
+    github_username: "ThaLeprechaun",
+    title: "Software Engineer",
+    facebook: "AKinbiyi Lanre",
+    twitter: "usmanLanray"
+  },
+  {
+    name: "Adonis Mendoza",
+    github_username: "adonismendozaperez",
+    title: "Web Developer",
+    facebook: "#",
+    twitter: "adonismdza"
+  },
+  {
+    name: "Adabe Echaim",
+    github_username: "cranium44",
+    title: "Software Engineer",
+    facebook: "cranium44",
+    twitter: "cranium_44"
+  },
+  {
+    name: "Doctor Vee",
+    github_username: "Victor-Chinewubeze",
+    title: "Software Developer",
+    facebook: "doctor.vee.1",
+    twitter: "MyDoctorVee"
+  },
+  {
+    name: "Jones Ogolo",
+    github_username: "Jay-Topher",
+    title: "Software Engineer",
+    facebook: "Jones Ogolo",
+    twitter: "mr_jonce"
+  },
+  {
+    name: "Chukwuebuka Anazodo",
+    github_username: "phayo",
+    title: "Software Products Engineer",
+    facebook: "phayokingz",
+    twitter: "mrphayo"
+  },
+  {
+    name: "Adams Temidire A",
+    github_username: "gr8temi",
+    title: "Software Developer",
+    facebook: "Adams Temidire",
+    twitter: "adamstemidire1"
+  },
+  {
+    name: "Babalola Taiwo",
+    github_username: "thywoe",
+    title: "Software Engineer",
+    facebook: "babson.thywo",
+    twitter: "thywoe"
+  },
+  {
+    name: "Chidiogo Ezeakunne",
+    github_username: "chidiogo-akunne",
+    title: "Software Developer",
+    facebook: "scholar.akunne",
+    twitter: "dinthecoder"
+  },
+  {
+    name: "Amani Kanu",
+    github_username: "sirsuccess",
+    title: "Software Developer",
+    facebook: "Amani Kanu",
+    twitter: "A1_success"
+  },
+  {
+    name: "Joel Ugwumadu",
+    github_username: "ugwumadu116",
+    title: "Full Stack Developer",
+    facebook: "Joel Ugwumadu",
+    twitter: "UgwumaduJoel"
+  },
+  {
+    name: "Ama Benedict",
+    github_username: "bendiumpope",
+    title: "Software Developer",
+    facebook: "benpope",
+    twitter: "dikachiben"
+  },
+  {
+    name: "Ayodele Tolulope",
+    github_username: "toluwalope19",
+    title: "Software Developer",
+    facebook: "tolu.ayodele3",
+    twitter: "Tolubarca"
+  },
+  {
+    name: "Ugwu Lewis",
+    github_username: "princelewis",
+    title: "Software Engineer",
+    facebook: "ugwu obiora",
+    twitter: "Loudsdata"
+  },
+  {
+    name: "Osehiase Ehilen",
+    github_username: "Osehi",
+    title: "Software Product Engineer",
+    facebook: "Osehiase Ehilen",
+    twitter: "osehiase"
+  },
+  {
+    name: "Waheed Afolabi",
+    github_username: "wptechprodigy",
+    title: "Software Engineer",
+    facebook: "afolabiwaheedo",
+    twitter: "checkwithwaheed"
+  },
+  {
+    name: "Prakher Prashank",
+    github_username: "terabo090",
+    title: "Web Developer",
+    facebook: "Prashank Prakher",
+    twitter: "PrakherPrashank"
+  },
+  {
+    name: "Naman Dwivedi",
+    github_username: "Naman2901",
+    title: "Software Developer",
+    facebook: "",
+    twitter: ""
+  },
+  {
+    name: "Chigozie Asadu",
+    github_username: "cchigo",
+    title: "Software Developer",
+    facebook: "Chigozie Asadu",
+    twitter: "Chigorgor"
+  },
+  {
+    name: "Anushka Narula",
+    github_username: "anushkanarula",
+    title: "Computer Science Engineering Undergrad",
+    facebook: "narula.anushka",
+    twitter: "AnushkaNarula1"
+  },
+  {
+    name: "Wesley Mendes",
+    github_username: "WesGtoX",
+    title: "Software Developer",
+    facebook: "WesGtoX",
+    twitter: "Wess_Mendes"
+  },
+  {
+   name: "Nishit Anand",
+   github_username: "nishitanand",
+   title: "Computer Science Student",
+   facebook: "nishitanand",
+   twitter: "nishitanand99"
+},
+  {
+    name: "Rocktim Saikia",
+    github_username: "RocktimSaikia",
+    title: "Fullstack Web Developer",
+    facebook: "#",
+    twitter: "RocktimSaikia10"
+  },
     {
-      decadev: "Nnaji Victor",
-      github_username: "Nnaji-Victor",
-      title: "Software Engineer",
-      facebook: "#",
-      twitter: "nnajivictor0"
-    },
-    {
-      decadev: "Akinbiyi Usman",
-      github_username: "ThaLeprechaun",
-      title: "Software Engineer",
-      facebook: "AKinbiyi Lanre",
-      twitter: "usmanLanray"
-    },
-    {
-      decadev: "Adonis Mendoza",
-      github_username: "adonismendozaperez",
-      title: "Web Developer",
-      facebook: "#",
-      twitter: "adonismdza"
-    },
-    {
-      decadev: "Adabe Echaim",
-      github_username: "cranium44",
-      title: "Software Engineer",
-      facebook: "cranium44",
-      twitter: "cranium_44"
-    },
-    {
-      decadev: "Doctor Vee",
-      github_username: "Victor-Chinewubeze",
-      title: "Software Developer",
-      facebook: "doctor.vee.1",
-      twitter: "MyDoctorVee"
-    },
-    {
-      decadev: "Jones Ogolo",
-      github_username: "Jay-Topher",
-      title: "Software Engineer",
-      facebook: "Jones Ogolo",
-      twitter: "mr_jonce"
-    },
-    {
-      decadev: "Chukwuebuka Anazodo",
-      github_username: "phayo",
-      title: "Software Products Engineer",
-      facebook: "phayokingz",
-      twitter: "mrphayo"
-    },
-    {
-      decadev: "Adams Temidire A",
-      github_username: "gr8temi",
-      title: "Software Developer",
-      facebook: "Adams Temidire",
-      twitter: "adamstemidire1"
-    },
-    {
-      decadev: "Babalola Taiwo",
-      github_username: "thywoe",
-      title: "Software Engineer",
-      facebook: "babson.thywo",
-      twitter: "thywoe"
-    },
-    {
-      decadev: "Chidiogo Ezeakunne",
-      github_username: "chidiogo-akunne",
-      title: "Software Developer",
-      facebook: "scholar.akunne",
-      twitter: "dinthecoder"
-    },
-    {
-      decadev: "Amani Kanu",
-      github_username: "sirsuccess",
-      title: "Software Developer",
-      facebook: "Amani Kanu",
-      twitter: "A1_success"
-    },
-    {
-      decadev: "Joel Ugwumadu",
-      github_username: "ugwumadu116",
-      title: "Full Stack Developer",
-      facebook: "Joel Ugwumadu",
-      twitter: "UgwumaduJoel"
-    },
-    {
-      decadev: "Ama Benedict",
-      github_username: "bendiumpope",
-      title: "Software Developer",
-      facebook: "benpope",
-      twitter: "dikachiben"
-    },
-    {
-      decadev: "Ayodele Tolulope",
-      github_username: "toluwalope19",
-      title: "Software Developer",
-      facebook: "tolu.ayodele3",
-      twitter: "Tolubarca"
-    },
-    {
-      decadev: "Ugwu Lewis",
-      github_username: "princelewis",
-      title: "Software Engineer",
-      facebook: "ugwu obiora",
-      twitter: "Loudsdata"
-    },
-    {
-      decadev: "Osehiase Ehilen",
-      github_username: "Osehi",
-      title: "Software Product Engineer",
-      facebook: "Osehiase Ehilen",
-      twitter: "osehiase"
-    },
-    {
-      decadev: "Waheed Afolabi",
-      github_username: "wptechprodigy",
-      title: "Software Engineer",
-      facebook: "afolabiwaheedo",
-      twitter: "checkwithwaheed"
-    },
-    {
-      decadev: "Prakher Prashank",
-      github_username: "terabo090",
-      title: "Web Developer",
-      facebook: "Prashank Prakher",
-      twitter: "PrakherPrashank"
-    },
-    {
-      decadev: "Naman Dwivedi",
-      github_username: "Naman2901",
-      title: "Software Developer",
-      facebook: "",
-      twitter: ""
-    },
-    {
-      decadev: "Chigozie Asadu",
-      github_username: "cchigo",
-      title: "Software Developer",
-      facebook: "Chigozie Asadu",
-      twitter: "Chigorgor"
-    },
-    {
-      decadev: "Anushka Narula",
-      github_username: "anushkanarula",
-      title: "Computer Science Engineering Undergrad",
-      facebook: "narula.anushka",
-      twitter: "AnushkaNarula1"
-    },
-    {
-      decadev: "Wesley Mendes",
-      github_username: "WesGtoX",
-      title: "Software Developer",
-      facebook: "WesGtoX",
-      twitter: "Wess_Mendes"
-    },
-    {
-     decadev: "Nishit Anand",
-     github_username: "nishitanand",
-     title: "Computer Science Student",
-     facebook: "nishitanand",
-     twitter: "nishitanand99"
+     name: "Taylor Leija",
+     github_username: "tleija",
+     title: "hobbiest",
+     facebook: "#",
+      twitter: "#"
  },
     {
-      decadev: "Rocktim Saikia",
-      github_username: "RocktimSaikia",
-      title: "Fullstack Web Developer",
+        name: "Prateek Jena",
+        github_username: "prateikjena",
+        title: "Software Developer",
+        facebook: "",
+        twitter: "prateikjena"
+    },
+  {
+        name: "Durosomo Abdul",
+        github_username: "darothub",
+        title: "Software Developer",
+        facebook: "Darotudeen",
+        twitter: "LeKibitzer"
+    },
+  {
+        name: "Rohit Singh",
+        github_username: "cyber0786",
+        title: "Security Advisor",
+        facebook: "Rohit Singh",
+        twitter: "Rohit_0786"
+    },
+    {
+      name: "Vijay Krishna",
+      github_username: "vijaykrishna536",
+      title: "Computer Science Engineering Undergrad",
       facebook: "#",
-      twitter: "RocktimSaikia10"
-    },
-      {
-       decadev: "Taylor Leija",
-       github_username: "tleija",
-       title: "hobbiest",
-       facebook: "#",
+      twitter: "#"
+  },
+  {
+        name: "Shubham Siddhartha",
+        github_username: "shubhamcoder97",
+        title: "Software Engineer",
+        facebook: "Shubham Siddhartha",
         twitter: "#"
-   },
-      {
-          decadev: "Prateek Jena",
-          github_username: "prateikjena",
-          title: "Software Developer",
-          facebook: "",
-          twitter: "prateikjena"
-      },
-    {
-          decadev: "Durosomo Abdul",
-          github_username: "darothub",
-          title: "Software Developer",
-          facebook: "Darotudeen",
-          twitter: "LeKibitzer"
-      },
-    {
-          decadev: "Rohit Singh",
-          github_username: "cyber0786",
-          title: "Security Advisor",
-          facebook: "Rohit Singh",
-          twitter: "Rohit_0786"
-      },
-      {
-        decadev: "Vijay Krishna",
-        github_username: "vijaykrishna536",
-        title: "Computer Science Engineering Undergrad",
+    },
+  {
+        name: "Victor Onyebuchi",
+        github_username: "CodeVee",
+        title: "Software Engineer",
         facebook: "#",
-        twitter: "#"
-    },
-    {
-          decadev: "Shubham Siddhartha",
-          github_username: "shubhamcoder97",
-          title: "Software Engineer",
-          facebook: "Shubham Siddhartha",
-          twitter: "#"
-      },
-    {
-          decadev: "Victor Onyebuchi",
-          github_username: "CodeVee",
-          title: "Software Engineer",
-          facebook: "#",
-          twitter: "LogVee"
-      }
+        twitter: "LogVee"
+    }
 
 
-  ];
+];
   
 
 function searchForDevelopers() {
@@ -281,8 +281,8 @@ const fetchUser = async user => {
 resultDiv = document.querySelector(".card-container");
 
 let content = "";
-Shuffle(cards).forEach(decadev => {
-  fetchUser(decadev.github_username).then(userData => {
+Shuffle(cards).forEach(developer => {
+  fetchUser(developer.github_username).then(userData => {
     
     resultDiv.innerHTML += `<div class="our-team">
                 <ul class="circles"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
@@ -291,20 +291,20 @@ Shuffle(cards).forEach(decadev => {
                 <img class="img-fluid" src="${userData.data.avatar_url}">
             </div>
             <div class="team-content">
-                <h3 class="name">${decadev.decadev}</h3>
-                <h4 class="title">${decadev.title}</h4>
+                <h3 class="name">${developer.name}</h3>
+                <h4 class="title">${developer.title}</h4>
             </div>
             <div class="github-container">
             <div class="username">Username: <span>${userData.data.login}</span></div>
             <div class="repo">Repos: <span>${userData.data.public_repos}</span></div>
             </div>
             <div class="social">
-                <a href="https://www.facebook.com/${decadev.facebook}" target="_blank">
+                <a href="https://www.facebook.com/${developer.facebook}" target="_blank">
                 <svg class="icon icon-facebook">
                     <use xlink:href="img/sprite.svg#icon-facebook2"></use>
                 </svg>
                 </a>
-                <a href="https://www.twitter.com/${decadev.twitter}" target="_blank">
+                <a href="https://www.twitter.com/${developer.twitter}" target="_blank">
                 <svg class="icon icon-facebook icon-twitter">
                     <use xlink:href="img/sprite.svg#icon-twitter"></use>
                 </svg>
