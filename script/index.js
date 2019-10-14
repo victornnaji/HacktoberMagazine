@@ -194,7 +194,16 @@ let cards = [
           title: "Security Advisor",
           facebook: "Rohit Singh",
           twitter: "Rohit_0786"
+      },
+    {
+          decadev: "Shubham Siddhartha",
+          github_username: "shubhamcoder97",
+          title: "Software Engineer",
+          facebook: "Shubham Siddhartha",
+          twitter: "#"
       }
+
+
   ];
   
 
