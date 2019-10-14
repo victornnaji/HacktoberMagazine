@@ -297,16 +297,44 @@ body {
   font-size: 2rem;   
  }
 
+ .row {
+   justify-content: center;
+ }
+
 #searchContainer {
-    width: 100%;
-    padding-bottom: 3rem;
+  width: 100vw;
+  padding-bottom: 3rem;
 }
 
 #searchInput {
-    border-radius: 10px;
-    height: 35px;
-    width: 350px;
-    display: inherit;
-    margin: 0 auto;
-    color: #2b6cb0;
+  border-radius: 10px;
+  height: 35px;
+  width: 350px;
+  display: inherit;
+  margin: 0 auto;
+  color: #2b6cb0;
+}
+
+@media only screen and (max-width: 900px) {
+  #searchInput {
+    width: 60vw;
+    max-width: 350px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .hacktober {
+    font-size: 2.5rem;
+  }
+
+  .magazine {
+    font-size: 3rem;
+  }
+
+  .decagon {
+    font-size: 1rem;
+    position: absolute;
+    top: 3.5rem;
+    right: 2rem;
+  }
 }
