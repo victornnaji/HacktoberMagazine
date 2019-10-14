@@ -283,7 +283,7 @@ resultDiv = document.querySelector(".card-container");
 let content = "";
 Shuffle(cards).forEach(decadev => {
   fetchUser(decadev.github_username).then(userData => {
-    console.log(userData.data);
+    
     resultDiv.innerHTML += `<div class="our-team">
                 <ul class="circles"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
                 </ul>
