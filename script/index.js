@@ -222,6 +222,13 @@ let cards = [
         title: "Student",
         facebook: "#",
         twitter: "harshsngh07"
+    },
+	 {
+        name: "Piyush Kumar",
+        github_username: "piyushkumarsingh",
+        title: "Student",
+        facebook: "#",
+        twitter: "piyushkumar1228"
     }
   
 
