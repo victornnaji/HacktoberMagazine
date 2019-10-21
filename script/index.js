@@ -154,12 +154,12 @@ let cards = [
     twitter: "Wess_Mendes"
   },
   {
-   name: "Nishit Anand",
-   github_username: "nishitanand",
-   title: "Computer Science Student",
-   facebook: "nishitanand",
-   twitter: "nishitanand99"
-},
+    name: "Nishit Anand",
+    github_username: "nishitanand",
+    title: "Computer Science Student",
+    facebook: "nishitanand",
+    twitter: "nishitanand99"
+  },
   {
     name: "Rocktim Saikia",
     github_username: "RocktimSaikia",
@@ -167,74 +167,77 @@ let cards = [
     facebook: "#",
     twitter: "RocktimSaikia10"
   },
-    {
-     name: "Taylor Leija",
-     github_username: "tleija",
-     title: "hobbiest",
-     facebook: "#",
-      twitter: "#"
- },
-    {
-        name: "Prateek Jena",
-        github_username: "prateikjena",
-        title: "Software Developer",
-        facebook: "",
-        twitter: "prateikjena"
-    },
   {
-        name: "Durosomo Abdul",
-        github_username: "darothub",
-        title: "Software Developer",
-        facebook: "Darotudeen",
-        twitter: "LeKibitzer"
-    },
-  {
-        name: "Rohit Singh",
-        github_username: "cyber0786",
-        title: "Security Advisor",
-        facebook: "Rohit Singh",
-        twitter: "Rohit_0786"
-    },
-    {
-      name: "Vijay Krishna",
-      github_username: "vijaykrishna536",
-      title: "Computer Science Engineering Undergrad",
-      facebook: "#",
-      twitter: "#"
+    name: "Taylor Leija",
+    github_username: "tleija",
+    title: "hobbiest",
+    facebook: "#",
+    twitter: "#"
   },
   {
-        name: "Shubham Siddhartha",
-        github_username: "shubhamcoder97",
-        title: "Software Engineer",
-        facebook: "Shubham Siddhartha",
-        twitter: "#"
-    },
+    name: "Prateek Jena",
+    github_username: "prateikjena",
+    title: "Software Developer",
+    facebook: "",
+    twitter: "prateikjena"
+  },
   {
-        name: "Victor Onyebuchi",
-        github_username: "CodeVee",
-        title: "Software Engineer",
-        facebook: "#",
-        twitter: "LogVee"
-    },
-    {
-        name: "Harsh Singh",
-        github_username: "harshsngh07",
-        title: "Student",
-        facebook: "#",
-        twitter: "harshsngh07"
-    },
-	 {
-        name: "Piyush Kumar",
-        github_username: "piyushkumarsingh",
-        title: "Student",
-        facebook: "#",
-        twitter: "piyushkumar1228"
-    }
-  
-
-
+    name: "Durosomo Abdul",
+    github_username: "darothub",
+    title: "Software Developer",
+    facebook: "Darotudeen",
+    twitter: "LeKibitzer"
+  },
+  {
+    name: "Rohit Singh",
+    github_username: "cyber0786",
+    title: "Security Advisor",
+    facebook: "Rohit Singh",
+    twitter: "Rohit_0786"
+  },
+  {
+    name: "Vijay Krishna",
+    github_username: "vijaykrishna536",
+    title: "Computer Science Engineering Undergrad",
+    facebook: "#",
+    twitter: "#"
+  },
+  {
+    name: "Shubham Siddhartha",
+    github_username: "shubhamcoder97",
+    title: "Software Engineer",
+    facebook: "Shubham Siddhartha",
+    twitter: "#"
+  },
+  {
+    name: "Victor Onyebuchi",
+    github_username: "CodeVee",
+    title: "Software Engineer",
+    facebook: "#",
+    twitter: "LogVee"
+  },
+  {
+    name: "Harsh Singh",
+    github_username: "harshsngh07",
+    title: "Student",
+    facebook: "#",
+    twitter: "harshsngh07"
+  },
+  {
+    name: "Piyush Kumar",
+    github_username: "piyushkumarsingh",
+    title: "Student",
+    facebook: "#",
+    twitter: "piyushkumar1228"
+  },
+  {
+    name: "Juan Ascanio",
+    github_username: "jascaniojah",
+    title: "Dev",
+    facebook: "#",
+    twitter: "jascaniojah"
+  }
 ];
-  
 
 function searchForDevelopers() {
   let input = document.getElementById("searchInput");
@@ -298,7 +301,6 @@ resultDiv = document.querySelector(".card-container");
 let content = "";
 Shuffle(cards).forEach(developer => {
   fetchUser(developer.github_username).then(userData => {
-    
     resultDiv.innerHTML += `<div class="our-team">
                 <ul class="circles"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
                 </ul>
