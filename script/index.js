@@ -237,6 +237,13 @@ let cards = [
     facebook: "#",
     twitter: "jascaniojah"
   }
+  {
+    name: "Douglas Feltrim",
+    github_username: "dougfeltrim",
+    title: "Biomedical informatician",
+    facebook: "",
+    twitter: ""
+  }
 ];
 
 function searchForDevelopers() {
