@@ -242,7 +242,7 @@ let cards = [
     github_username: "dougfeltrim",
     title: "Biomedical informatician",
     facebook: "",
-    twitter: ""
+    twitter: "dougfeltrim"
   }
 ];
 
