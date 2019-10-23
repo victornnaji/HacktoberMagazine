@@ -236,7 +236,14 @@ let cards = [
     title: "Dev",
     facebook: "#",
     twitter: "jascaniojah"
-  }
+  },
+   {
+     name: "Lesi Sampson",
+     github_username: "lesijay",
+     title: "Software Engineer",
+     facebook: "lesi.dogbaa",
+     twitter: "LesiS19"
+ }
 ];
 
 function searchForDevelopers() {
