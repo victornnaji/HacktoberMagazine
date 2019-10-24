@@ -243,6 +243,13 @@ let cards = [
      title: "Software Engineer",
      facebook: "lesi.dogbaa",
      twitter: "LesiS19"
+ },
+  {
+     name: "Victor Bassey",
+     github_username: "veezyjay",
+     title: "Software Engineer",
+     facebook: "#",
+     twitter: "veezyjay"
  }
 ];
 
