@@ -250,7 +250,14 @@ let cards = [
      title: "Software Engineer",
      facebook: "#",
      twitter: "veezyjay"
- }
+ },
+  {
+    name: "Douglas Feltrim",
+    github_username: "dougfeltrim",
+    title: "Biomedical informatician",
+    facebook: "",
+    twitter: "dougfeltrim"
+  }
 ];
 
 function searchForDevelopers() {
