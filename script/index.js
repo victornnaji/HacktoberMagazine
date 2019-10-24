@@ -236,7 +236,7 @@ let cards = [
     title: "Dev",
     facebook: "#",
     twitter: "jascaniojah"
-  }
+  },
   {
     name: "Douglas Feltrim",
     github_username: "dougfeltrim",
