@@ -14,6 +14,13 @@ let cards = [
     twitter: "usmanLanray"
   },
   {
+    name: "Caroline Figueiredo Pettarelli",
+    github_username: "ca-pettarelli",
+    title: "Data Scientist",
+    facebook: "Carol Pettarelli",
+    twitter: ""
+  },
+  {
     name: "Adonis Mendoza",
     github_username: "adonismendozaperez",
     title: "Web Developer",
@@ -271,7 +278,15 @@ let cards = [
     title: "CS Undergrad",
     facebook: "",
     twitter: "rexagod"
+  },
+  {
+    name: "Octavia Couneson",
+    github_username: "0ctavia",
+    title: "Junior web developer",
+    facebook: "#",
+    twitter: "#"
   }
+
 ];
 
 function searchForDevelopers() {
