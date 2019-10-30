@@ -264,7 +264,15 @@ let cards = [
     title: "Student",
     facebook: "",
     twitter: ""
+  },
+  {
+    name: "Octavia Couneson",
+    github_username: "0ctavia",
+    title: "Junior web developer",
+    facebook: "#",
+    twitter: "#"
   }
+
 ];
 
 function searchForDevelopers() {
