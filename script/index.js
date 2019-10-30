@@ -14,6 +14,13 @@ let cards = [
     twitter: "usmanLanray"
   },
   {
+    name: "Caroline Figueiredo Pettarelli",
+    github_username: "ca-pettarelli",
+    title: "Data Scientist",
+    facebook: "Carol Pettarelli",
+    twitter: ""
+  },
+  {
     name: "Adonis Mendoza",
     github_username: "adonismendozaperez",
     title: "Web Developer",
