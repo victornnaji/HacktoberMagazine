@@ -273,6 +273,13 @@ let cards = [
     twitter: ""
   },
   {
+    name: "Pranshu Srivastava",
+    github_username: "rexagod",
+    title: "CS Undergrad",
+    facebook: "",
+    twitter: "rexagod"
+  },
+  {
     name: "Octavia Couneson",
     github_username: "0ctavia",
     title: "Junior web developer",
