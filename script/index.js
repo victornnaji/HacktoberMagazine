@@ -285,7 +285,14 @@ let cards = [
     title: "Junior web developer",
     facebook: "#",
     twitter: "#"
-  }
+  }, 
+  {
+     name: "Anagh Kanungo",
+     github_username: "anaghkanungo7",
+     title: "Aspiring Computer Scientist",
+     facebook: "#",
+     twitter: "#"
+ }
 
 ];
 
