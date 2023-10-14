@@ -342,8 +342,8 @@ function Shuffle(o) {
   return o;
 }
 
-const client_id = "75d6633b7456df73aef3";
-const client_secret = "9269a41b2dc3ba0a13e94609bd7b05f1769ba5b8";
+const client_id = process.env.CLIENT_ID;
+const client_secret = process.env.CLIENT_SECRET;
 
 const fetchUser = async user => {
   const api_call = await fetch(`https://api.github.com/users/${user}?client_id=${client_id}&
