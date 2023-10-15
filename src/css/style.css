@@ -67,6 +67,8 @@ body {
 .announcement__text a:link,
 .announcement__text a:visited {
   color: currentColor;
+  display: inline-block;
+  margin: 0 .5rem;
 }
 
 .hacktober {
