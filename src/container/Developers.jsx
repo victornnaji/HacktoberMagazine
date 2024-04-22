@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import DeveloperCard from "./DeveloperCard";
+import PropTypes from 'prop-types';
 
 const Developers = ({ developerData }) => {
   const [filter, setFilter] = useState("");
@@ -41,6 +42,18 @@ const Developers = ({ developerData }) => {
       </div>
     </>
   );
+};
+
+Developers.propTypes = {
+  developers: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      github_username: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
+      facebook: PropTypes.string,
+      twitter: PropTypes.string,
+    })
+  ).isRequired,
 };
 
 export default Developers;

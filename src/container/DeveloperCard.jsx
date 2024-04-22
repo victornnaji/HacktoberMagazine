@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 
 const DeveloperCard = ({ developer }) => {
-  const [githubInfo, setUser] = useState({});
+  const [githubInfo, setGithubInfo] = useState({});
   useEffect(() => {
+    if (!developer.github_username) return;
     const fetchUser = async (user) => {
       const token = process.env.REACT_APP_GITHUB_TOKEN;
       const headers = {
@@ -14,9 +16,7 @@ const DeveloperCard = ({ developer }) => {
       });
 
       if (api_call.status === 403) {
-        // Handle rate limit exceeded error
         console.error("API rate limit exceeded");
-        // You can also check the headers for rate limit information
         console.log(api_call.headers.get("X-RateLimit-Limit"));
         console.log(api_call.headers.get("X-RateLimit-Remaining"));
       }
@@ -25,15 +25,18 @@ const DeveloperCard = ({ developer }) => {
       return { data };
     };
 
-    fetchUser(developer.github_username).then((res) => setUser(res.data));
+    fetchUser(developer.github_username)
+      .then((res) => setGithubInfo(res.data))
+      .catch((error) => {
+        console.error("Error fetching user:", error);
+      });
   }, [developer.github_username]);
 
-  console.log({ developer, githubInfo });
   return (
     <div className="our-team">
       <ul className="circles">
         {Array.from({ length: 10 }).map((_, index) => (
-          <li key={index}></li>
+          <li key={`circle-${Date.now()}-${index}`}></li>
         ))}
       </ul>
       <div className="picture">
@@ -55,37 +58,17 @@ const DeveloperCard = ({ developer }) => {
           Repos: <span>{githubInfo.public_repos}</span>
         </div>
       </div>
-      {/* <div className="social">
-        <a
-          href={`https://www.facebook.com/${developer.facebook}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <svg className="icon icon-facebook">
-            <use xlinkHref="img/sprite.svg#icon-facebook2"></use>
-          </svg>
-        </a>
-        <a
-          href={`https://www.twitter.com/${developer.twitter}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <svg className="icon icon-twitter">
-            <use xlinkHref="img/sprite.svg#icon-twitter"></use>
-          </svg>
-        </a>
-        <a
-          href={githubInfo.data.html_url}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <svg className="icon icon-facebook">
-            <use xlinkHref="img/sprite.svg#icon-github"></use>
-          </svg>
-        </a>
-      </div> */}
     </div>
   );
+};
+
+DeveloperCard.propTypes = {
+  developer: PropTypes.shape({
+    name: PropTypes.string,
+    age: PropTypes.number,
+    title: PropTypes.string,
+    github_username: PropTypes.string,
+  }).isRequired,
 };
 
 export default DeveloperCard;

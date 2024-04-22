@@ -15,9 +15,9 @@ function App() {
           </svg>
         </div>
         <h2 className="announcement__text">
-          Remember to
+          <span>Remember to</span>
           <a href="https://hacktoberfest.digitalocean.com/profile">Register</a>
-          to be eligible for the tee!
+          <span>to be eligible for the tee!</span>
         </h2>
         <div className="github-logo">
           <svg className="icon icon-github" viewBox="0 0 32 32">
